@@ -1,0 +1,116 @@
+.card {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 15px;
+  padding: 15px;
+  width: 250px; /* Largura inicial do card */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out; /* Transição suave para expandir/recolher */
+  overflow: hidden; /* Garante que o conteúdo não vaze antes de expandir */
+  position: relative; /* **IMPORTANTE:** Adicionado para posicionar o botão 'X' */
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+  border: 5px solid #4CAF50; /* Borda verde ao passar o mouse */
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espaço entre imagem e nome */
+}
+
+.card-image {
+  width: 70px; /* Tamanho da imagem no card */
+  height: 70px;
+  object-fit: contain; /* Para garantir que a imagem se ajuste sem cortar */
+  border-radius: 4px;
+}
+
+.card-name {
+  font-size: 1.2em;
+  color: #333;
+  margin: 0;
+}
+
+/* Estilos para a seção de detalhes do card */
+.card-details {
+  margin-top: 15px;
+  max-height: 0; /* Começa escondido */
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out, opacity 0.4s ease-out;
+}
+
+.card-details p {
+  font-size: 0.95em;
+  color: #555;
+  line-height: 1.5;
+}
+
+.card-details strong {
+  color: #222;
+}
+
+/* Estilos para o card quando ele está expandido */
+.card.expanded {
+  width: 90vw; /* Expande quase toda a largura da tela */
+  max-width: 800px; /* Limita a largura em telas grandes */
+  height: auto; /* Altura automática para mostrar todo o conteúdo */
+  padding: 25px;
+  position: fixed; /* Fixa o card no centro da tela */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centraliza o card */
+  z-index: 1000; /* Garante que ele fique acima de outros elementos */
+  background-color: #fff; /* Fundo branco para o card expandido */
+  border: 2px solid #4CAF50; /* Borda de destaque */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  /* **IMPORTANTE:** Padding superior para dar espaço ao botão 'X' */
+  padding-top: 50px; /* Ajuste se o botão 'X' precisar de mais ou menos espaço */
+}
+
+/* Estilos para a seção de detalhes quando o card está expandido */
+.card.expanded .card-details {
+  max-height: 500px; /* Altura máxima ao expandir (ajuste conforme necessário) */
+  opacity: 1;
+  /* Remove o margin-top se o padding-top do .card.expanded já resolver */
+  margin-top: 0; 
+}
+
+
+/* Estilos para o botão de fechar (o 'X') */
+.close-button {
+  position: absolute; /* Posição absoluta dentro do card expandido */
+  top: 15px; /* Distância do topo */
+  right: 15px; /* Distância da direita */
+  background-color: #ff4d4d; /* Cor de fundo vermelha */
+  color: white; /* Cor do texto */
+  border: none; /* Sem borda */
+  border-radius: 50%; /* Transforma em círculo */
+  width: 35px; /* Largura do botão */
+  height: 35px; /* Altura do botão */
+  font-size: 1.2em; /* Tamanho do 'X' */
+  font-weight: bold;
+  cursor: pointer;
+  display: flex; /* Para centralizar o 'X' dentro do botão */
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s ease;
+  z-index: 1001; /* Garante que o botão fique acima do conteúdo do card */
+}
+
+.close-button:hover {
+  background-color: #cc0000; /* Escurece no hover */
+}
+
+/* Adiciona um overlay para escurecer o fundo quando o card estiver expandido */
+body.overlay-active {
+  overflow: hidden; /* Evita rolagem da página quando o card está expandido */
+  /* Você pode adicionar um fundo semitransparente aqui para escurecer o resto da tela */
+  /* Ex: background-color: rgba(0, 0, 0, 0.5); */
+}

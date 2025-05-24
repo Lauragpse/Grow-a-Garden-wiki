@@ -1,0 +1,122 @@
+[
+  {
+    "id": "plant-tomato",
+    "name": "Tomate",
+    "rarity": "Rara",
+    "image": "/images/plants/tomato.png",
+    "description": [
+      "O tomate é uma cultura rara, apreciada por sua forma arredondada e seu caule verde. ",
+      "As sementes de tomate estão sempre disponíveis na Loja do Sam e podem ser adquiridas por 800 moedas ou robux.",
+      "Uma safra de tomate pode crescer a alturas impressionantes, chegando até um coqueiro médio ou superior.",
+      "Se a safra for muito alta, alguns tomates podem se tornar inacessíveis devido à sua posição elevada.",
+      "Quanto maior a safra, mais tomates serão produzidos na lavoura.",
+      "Se um usuário vender um tomate com peso igual ou superior a 7 kg, receberá o cobiçado selo GIANT TOMATO."
+    ]
+  },
+  {
+    "id": "plant-corn",
+    "name": "Milho",
+    "rarity": "Rara",
+    "image": "/images/plants/corn.png",
+    "description": [
+      "O milho é uma cultura rara, amplamente reconhecida por sua cor vibrante e formato cilíndrico pontiagudo.",
+      "Sua aparência característica inclui grãos amarelos agrupados em espigas, sendo uma das culturas mais versáteis e nutritivas.",
+      "As sementes de milho estão sempre disponíveis na Loja do Sam e podem ser adquiridas por 1300 moedas ou robux.",
+      "Esta planta cresce de forma robusta, adaptando-se bem a solos férteis e oferecendo uma colheita abundante.",
+      "Além de ser essencial na alimentação, o milho é utilizado para diversos produtos, incluindo farinha e rações."
+    ]
+  },
+  {
+    "id": "plant-pumpkin",
+    "name": "Abóbora",
+    "rarity": "Lendário",
+    "image": "/images/plants/pumpkin.png",
+    "description": [
+      "A abóbora é uma cultura lendária, conhecida por ser de colheita única e altamente valorizada.",
+      "Sua aparência distintiva inclui um corpo robusto e quadrado de cor laranja, complementado por um grande caule verde.",
+      "As sementes de abóbora possuem apenas 8% de chance de estarem em estoque na Loja do Sam, tornando-as raras e cobiçadas.",
+      "Um usuário pode adquirir uma semente por 3.000 moedas ou robux.",
+      "Devido à sua raridade e tamanho, a abóbora se destaca entre as culturas, sendo uma escolha estratégica para quem busca uma colheita única e especial."
+    ]
+  },
+  {
+    "id": "plant-carrot",
+    "name": "Cenoura",
+    "rarity": "Comum",
+    "image": "/images/plants/carrot.png",
+    "description": [
+      "A safra de cenoura é uma cultura comum e de colheita única disponível na Loja do Sam.",
+      "Seu formato é longo e cilíndrico, com uma vibrante cor laranja, enquanto o topo verde lembra as folhas que brotam da coroa da cenoura.",
+      "As sementes de cenoura estão sempre disponíveis na Loja do Sam e podem ser adquiridas por 10 moedas ou robux.",
+      "Esta é a primeira safra que qualquer jogador pode plantar e comprar no jogo, tornando-a um ótimo ponto de partida para iniciantes.",
+      "A cenoura cresce incrivelmente rápido, levando apenas cerca de 6,5 segundos para atingir sua maturidade completa.",
+      "Durante o Evento de Páscoa 2025, uma variante especial chamada Cenoura de Chocolate estará disponível.",
+      "Além de seu valor agrícola, a cenoura é uma das principais opções de alimento para coelhos, incluindo o raro coelho preto."
+    ]
+  },
+  {
+    "id": "plant-strawberry",
+    "name": "Morango",
+    "rarity": "Comum",
+    "image": "/images/plants/strawberry.png",
+    "description": [
+      "O morango é uma cultura comum e produtiva, conhecida por permitir várias colheitas ao longo do tempo.",
+      "Sua aparência característica inclui um corpo vermelho vibrante com pequenas sementes em sua superfície, além de folhas verdes exuberantes.",
+      "As sementes de morango estão sempre disponíveis na Loja do Sam e podem ser adquiridas por 50 moedas ou robux.",
+      "Além de ser uma fruta deliciosa e versátil, o morango é apreciado por seu rápido crescimento e alto rendimento.",
+      "Ideal para quem busca uma cultura prática e rentável, o morango se destaca pelo sabor doce e pela sua popularidade em diversas receitas."
+    ]
+  },
+  {
+    "id": "plant-orange-tulip",
+    "name": "Tulipa Laranja",
+    "rarity": "Incomum",
+    "image": "/images/plants/orangetulip.png",
+    "description": [
+      "The Orange Tulip is an uncommon crop, admired for its vibrant color and elegant shape.",
+      "This cup-shaped flower features striking orange petals and long, slender green leaves, adding beauty to any landscape.",
+      "Orange Tulip seeds have a 35% chance to be in stock at Sam's Shop and can be purchased for 600.",
+      "This crop grows remarkably fast, taking only about 6 seconds to fully mature.",
+      "Among all crops in the game, the Orange Tulip stands out as one of the fastest-growing, making it a valuable choice for efficient harvesting."
+    ]
+  },
+  {
+    "id": "plant-blueberry",
+    "name": "Mirtilo",
+    "rarity": "Incomum",
+    "image": "/images/plants/blueberry.png",
+    "description": [
+      "O mirtilo é uma cultura incomum que permite várias colheitas ao longo do tempo, sendo altamente valorizado por sua produtividade.",
+      "Sua aparência distinta inclui um pequeno mergulho em sua superfície e um formato quadrado, tornando-o único entre as culturas.",
+      "As sementes de mirtilo estão sempre disponíveis na Sam's Shop e podem ser adquiridas por 400.",
+      "Uma colheita de mirtilo leva aproximadamente 105 segundos para atingir a maturidade completa, enquanto cada mirtilo individual cresce em cerca de 22 segundos.",
+      "O rendimento máximo de uma única safra de mirtilo é 8, tornando-a uma escolha eficiente para os agricultores.",
+      "O mirtilo é uma das duas culturas arbustivas disponíveis no jogo, sendo a outra a framboesa."
+    ]
+  },
+  {
+    "id": "plant-daffodil",
+    "name": "Narciso",
+    "rarity": "Rara",
+    "image": "/images/plants/daffodil.png",
+    "description": [
+      "A narcisus é uma cultura rara de colheita única, apreciada por sua estrutura elegante e cor vibrante.",
+      "Ela possui uma coroa proeminente em forma de trombeta, cercada por seis pétalas amarelas delicadas, acompanhadas por folhas verdes lineares e semelhantes a espadas.",
+      "As sementes de narcisus têm apenas 7% de chance de estarem em estoque na Loja do Sam e podem ser adquiridas por 1.000 ou 19.",
+      "Devido à sua raridade e beleza, essa flor é altamente desejada, tornando-se uma opção especial para quem busca um cultivo único."
+    ]
+  },
+  {
+    "id": "plant-raspberry",
+    "name": "Framboesa",
+    "rarity": "Rara",
+    "image": "/images/plants/raspberry.png",
+    "description": [
+      "A framboesa é uma cultura rara e exclusiva, conhecida por permitir múltiplas colheitas ao longo do tempo.",
+      "Sua aparência distinta consiste em dois corpos quadrados rosa-avermelhados conectados por um caule marrom robusto.",
+      "As sementes de framboesa podem ser obtidas ao rolar através do Pacote de Sementes Normal, tornando-as uma aquisição especial para os jogadores.",
+      "A framboesa é uma das duas culturas arbustivas do jogo, sendo a outra o mirtilo.",
+      "Originalmente classificada como uma cultura de nível mítico, a framboesa foi reclassificada como uma cultura rara na atualização do Evento Planta Furiosa."
+    ]
+  }
+]
